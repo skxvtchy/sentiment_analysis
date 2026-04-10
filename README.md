@@ -4,6 +4,17 @@
 - Locally hosted backend on with fastApi
 - Trading-bot with Alpaca: https://www.youtube.com/watch?v=c9OjEThuJjY&t=574s
 
+```mermaid
+flowchart LR
+    B[💻 Open code] --> C[😳 What is this?]
+    C --> D{5 min?}
+    D -->|yes| E[😌 Done]
+    D -->|no| F[🫠 Crisis]
+    F --> G[🔍 Google]
+    G --> H[📋 Copy paste]
+    H --> E
+```
+
 ### Test trading bot
 
 - make a .env based on `.env.example`
